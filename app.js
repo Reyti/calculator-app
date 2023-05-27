@@ -19,3 +19,7 @@ function calculate() {
 function clearResult() {
   result.value = "";
 }
+
+function clearOneValue() {
+  result.value = result.value.slice(0, -1);
+}
