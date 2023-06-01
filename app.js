@@ -28,3 +28,7 @@ function appendNumber00(num) {
   result.value += num;
   result.value += num;
 }
+
+function calculatePercentage() {
+  result.value = result.value / 100;
+}
