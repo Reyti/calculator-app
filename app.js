@@ -23,3 +23,8 @@ function clearResult() {
 function clearOneValue() {
   result.value = result.value.slice(0, -1);
 }
+
+function appendNumber00(num) {
+  result.value += num;
+  result.value += num;
+}
